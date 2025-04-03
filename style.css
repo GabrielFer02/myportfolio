@@ -741,21 +741,22 @@ span {
   }
 
   .home-content h3{
-    font-size: 2.6rem;
+    font-size: 2.2rem; 
   }
 
   .home-content h1 {
-    font-size: 8rem;
+    font-size: 6rem; 
     margin-top: 3rem;
   }
 
   .home-content p {
     max-width: 600px;
     margin: 0 auto;
+    font-size: 1.4rem; 
   }
 
   .home-img img {
-    width: 56vw;
+    width: 70vw; 
   }
 
   .services h2 {
@@ -764,5 +765,62 @@ span {
 
   .services-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-box {
+    height: auto; 
+    margin-bottom: 2rem; 
+  }
+
+  .service-box .service-info {
+    padding: 3rem; 
+    max-height: none; 
+  }
+
+  .service-info h4 {
+    font-size: 2.5rem; 
+    line-height: 1.5;
+  }
+
+  .service-info p {
+    font-size: 1.5rem;
+    max-height: none; 
+    margin-top: 1rem; 
+  }
+
+  .text-animation {
+    font-size: 2.2rem; 
+    min-width: auto; 
+  }
+
+  .text-animation span::after {
+    width: 100%; 
+    right: 0; 
+  }
+
+  @keyframes typing {
+    10%,
+    20%,
+    30%,
+    40%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+      width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+      width: 100%;
+    }
   }
 }
