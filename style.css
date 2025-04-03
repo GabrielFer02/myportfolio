@@ -827,20 +827,20 @@ span {
 
 @media (max-width: 576px) {
   .home-content h3 {
-    font-size: 1.8rem;
+    font-size: 1.8rem; 
   }
 
   .home-content h1 {
-    font-size: 4rem;
+    font-size: 4rem; 
   }
 
   .home-content p {
-    font-size: 1.3rem;
+    font-size: 1.3rem; 
   }
 
   .text-animation {
-    font-size: 1.8rem;
-    min-width: auto;
+    font-size: 1.8rem; 
+    min-width: auto; 
   }
 
   .text-animation span::after {
@@ -872,25 +872,6 @@ span {
     85% {
       width: 100%;
     }
-  }
-
-  .btn-group a:nth-child(1) {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 2.8rem;
-  }
-
-  .btn-group a:nth-child(1)::after {
-    content: '';
-    position: relative;
-    display: inline-block;
-    width: 24px;
-    height: 20px;
-    background-image: url('./download-regular-24.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 0.5rem;
   }
 }
 
