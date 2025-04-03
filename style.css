@@ -824,3 +824,54 @@ span {
     }
   }
 }
+
+@media (max-width: 576px) {
+  .home-content h3 {
+    font-size: 1.8rem; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  .home-content h1 {
+    font-size: 4rem; /* Reduz o tamanho do título principal em telas menores */
+  }
+
+  .home-content p {
+    font-size: 1.3rem; /* Ajusta o tamanho da fonte do parágrafo para telas menores */
+  }
+
+  .text-animation {
+    font-size: 1.8rem; /* Garante consistência com o h3 */
+    min-width: auto; /* Garante que a largura se ajuste */
+  }
+
+  .text-animation span::after {
+    width: 100%;
+    right: 0;
+  }
+
+  @keyframes typing {
+    10%,
+    20%,
+    30%,
+    40%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+      width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+      width: 100%;
+    }
+  }
+}
+
